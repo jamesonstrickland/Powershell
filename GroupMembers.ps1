@@ -1,0 +1,1 @@
+﻿Get-ADGroupMember -Identity USABQ_Reboot_Exempt_Group | Select-object name,objectClass,distinguishedName 
